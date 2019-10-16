@@ -1,5 +1,9 @@
 package tests;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import base.Config04;
@@ -29,4 +33,17 @@ public class FbHomePageTest extends Config04 {
 	}
 	
 
+	@Test(groups = {"Random"})
+	public void linkTest01() {
+	//List<WebElement> e1=	driver.findElements(By.xpath("//*[@id=\"pageFooter\"]"));
+	//int links = e1.size();
+	//System.out.println(links);
+	WebElement e1= driver.findElement(By.xpath("//*[@id=\"pageFooter\"]"));
+	List<WebElement> e2= e1.findElements(By.tagName("a"));
+	int links = e2.size();
+	System.out.println("Links Count:"+links);
+	e2.iterator(); 
+	
+		
+	}
 }

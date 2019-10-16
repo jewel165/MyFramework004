@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33537" started-at="2019-10-15T23:48:40 EDT" finished-at="2019-10-15T23:49:14 EDT">
+  <suite name="Suite" duration-ms="38943" started-at="2019-10-16T00:15:50 EDT" finished-at="2019-10-16T00:16:29 EDT">
     <groups>
       <group name="Random">
         <method signature="FbHomePageTest.FbURLvarify()[pri:1, instance:tests.FbHomePageTest@6325a3ee]" name="FbURLvarify" class="tests.FbHomePageTest"/>
+        <method signature="FbHomePageTest.linkTest01()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="linkTest01" class="tests.FbHomePageTest"/>
         <method signature="FbHomePageTest.tilleTest()[pri:2, instance:tests.FbHomePageTest@6325a3ee]" name="tilleTest" class="tests.FbHomePageTest"/>
       </group> <!-- Random -->
       <group name="Smoke">
@@ -13,9 +14,9 @@
         <method signature="FbSignUp.Signup()[pri:0, instance:tests.FbSignUp@7791a895]" name="Signup" class="tests.FbSignUp"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="33537" started-at="2019-10-15T23:48:40 EDT" finished-at="2019-10-15T23:49:14 EDT">
+    <test name="Test" duration-ms="38943" started-at="2019-10-16T00:15:50 EDT" finished-at="2019-10-16T00:16:29 EDT">
       <class name="tests.FbHomePageTest">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="5383" started-at="2019-10-15T23:49:02 EDT" finished-at="2019-10-15T23:49:07 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="4669" started-at="2019-10-16T00:16:13 EDT" finished-at="2019-10-16T00:16:18 EDT">
           <params>
             <param index="0">
               <value>
@@ -26,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="FbURLvarify()[pri:1, instance:tests.FbHomePageTest@6325a3ee]" name="FbURLvarify" duration-ms="26" started-at="2019-10-15T23:49:07 EDT" finished-at="2019-10-15T23:49:07 EDT">
+        <test-method status="PASS" signature="linkTest01()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="linkTest01" duration-ms="57" started-at="2019-10-16T00:16:18 EDT" finished-at="2019-10-16T00:16:18 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FbURLvarify -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="173" started-at="2019-10-15T23:49:07 EDT" finished-at="2019-10-15T23:49:08 EDT">
+        </test-method> <!-- linkTest01 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="202" started-at="2019-10-16T00:16:18 EDT" finished-at="2019-10-16T00:16:18 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="5973" started-at="2019-10-15T23:49:08 EDT" finished-at="2019-10-15T23:49:14 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="5173" started-at="2019-10-16T00:16:18 EDT" finished-at="2019-10-16T00:16:23 EDT">
           <params>
             <param index="0">
               <value>
@@ -45,17 +46,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="tilleTest()[pri:2, instance:tests.FbHomePageTest@6325a3ee]" name="tilleTest" duration-ms="20" started-at="2019-10-15T23:49:14 EDT" finished-at="2019-10-15T23:49:14 EDT">
+        <test-method status="PASS" signature="FbURLvarify()[pri:1, instance:tests.FbHomePageTest@6325a3ee]" name="FbURLvarify" duration-ms="11" started-at="2019-10-16T00:16:23 EDT" finished-at="2019-10-16T00:16:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbURLvarify -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="200" started-at="2019-10-16T00:16:23 EDT" finished-at="2019-10-16T00:16:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="5751" started-at="2019-10-16T00:16:23 EDT" finished-at="2019-10-16T00:16:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbrowser -->
+        <test-method status="PASS" signature="tilleTest()[pri:2, instance:tests.FbHomePageTest@6325a3ee]" name="tilleTest" duration-ms="11" started-at="2019-10-16T00:16:29 EDT" finished-at="2019-10-16T00:16:29 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tilleTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="171" started-at="2019-10-15T23:49:14 EDT" finished-at="2019-10-15T23:49:14 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="221" started-at="2019-10-16T00:16:29 EDT" finished-at="2019-10-16T00:16:29 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.FbHomePageTest -->
       <class name="tests.FbSignIn">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="setupbrowser" is-config="true" duration-ms="5157" started-at="2019-10-15T23:48:47 EDT" finished-at="2019-10-15T23:48:53 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="setupbrowser" is-config="true" duration-ms="4805" started-at="2019-10-16T00:15:58 EDT" finished-at="2019-10-16T00:16:03 EDT">
           <params>
             <param index="0">
               <value>
@@ -66,17 +86,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="SNwithvalidinfo" duration-ms="9173" started-at="2019-10-15T23:48:53 EDT" finished-at="2019-10-15T23:49:02 EDT">
+        <test-method status="PASS" signature="SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="SNwithvalidinfo" duration-ms="9274" started-at="2019-10-16T00:16:03 EDT" finished-at="2019-10-16T00:16:13 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SNwithvalidinfo -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="close" is-config="true" duration-ms="296" started-at="2019-10-15T23:49:02 EDT" finished-at="2019-10-15T23:49:02 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="close" is-config="true" duration-ms="301" started-at="2019-10-16T00:16:13 EDT" finished-at="2019-10-16T00:16:13 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.FbSignIn -->
       <class name="tests.FbSignUp">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignUp@7791a895]" name="setupbrowser" is-config="true" duration-ms="5901" started-at="2019-10-15T23:48:40 EDT" finished-at="2019-10-15T23:48:46 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignUp@7791a895]" name="setupbrowser" is-config="true" duration-ms="7026" started-at="2019-10-16T00:15:50 EDT" finished-at="2019-10-16T00:15:57 EDT">
           <params>
             <param index="0">
               <value>
@@ -87,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="Signup()[pri:0, instance:tests.FbSignUp@7791a895]" name="Signup" duration-ms="997" started-at="2019-10-15T23:48:46 EDT" finished-at="2019-10-15T23:48:47 EDT">
+        <test-method status="PASS" signature="Signup()[pri:0, instance:tests.FbSignUp@7791a895]" name="Signup" duration-ms="945" started-at="2019-10-16T00:15:57 EDT" finished-at="2019-10-16T00:15:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignUp@7791a895]" name="close" is-config="true" duration-ms="189" started-at="2019-10-15T23:48:47 EDT" finished-at="2019-10-15T23:48:47 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignUp@7791a895]" name="close" is-config="true" duration-ms="216" started-at="2019-10-16T00:15:58 EDT" finished-at="2019-10-16T00:15:58 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

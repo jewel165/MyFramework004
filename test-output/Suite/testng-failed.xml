@@ -18,20 +18,6 @@
           <include name="close"/>
         </methods>
       </class> <!-- tests.FbSignUp -->
-      <class name="tests.FbSignIn">
-        <methods>
-          <include name="setupbrowser"/>
-          <include name="close"/>
-          <include name="SNwithvalidinfo"/>
-        </methods>
-      </class> <!-- tests.FbSignIn -->
-      <class name="tests.FbHomePageTest">
-        <methods>
-          <include name="setupbrowser"/>
-          <include name="close"/>
-          <include name="FbURLvarify"/>
-        </methods>
-      </class> <!-- tests.FbHomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
