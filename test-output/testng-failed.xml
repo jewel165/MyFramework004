@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_CrossBroserTesting]" parallel="tests">
-  <test thread-count="5" name="CrossBroswer_Firefox(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="Smoke"/>
-        <include name="random"/>
-        <include name="Regression"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="tests.FbSignUp">
         <methods>
@@ -19,5 +11,5 @@
         </methods>
       </class> <!-- tests.FbSignUp -->
     </classes>
-  </test> <!-- CrossBroswer_Firefox(failed) -->
-</suite> <!-- Failed suite [Suite_CrossBroserTesting] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
