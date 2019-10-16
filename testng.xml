@@ -7,12 +7,16 @@
   			<run>
   				<include name = "Smoke"></include>
   				<include name = "Regression"></include>
-  				<include name = "Randokm"></include>
+  				<include name = "Random"></include>
   			</run>
   		</groups>
   
     <classes>
       <class name="tests.FbSignUp"/>
+      <class name="tests.FbSignIn"/>
+      <class name="tests.FbHomePageTest"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

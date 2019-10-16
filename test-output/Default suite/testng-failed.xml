@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.FbSignUp">
+      <class name="tests.FbHomePageTest">
         <methods>
           <include name="setupbrowser"/>
-          <include name="Signup"/>
           <include name="close"/>
+          <include name="FbURLvarify"/>
         </methods>
-      </class> <!-- tests.FbSignUp -->
+      </class> <!-- tests.FbHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
