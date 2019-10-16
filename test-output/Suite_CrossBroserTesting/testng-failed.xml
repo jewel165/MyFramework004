@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_CrossBroserTesting]" parallel="tests">
+  <test thread-count="5" name="CrossBroswer_Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="random"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.FbSignUp">
+        <methods>
+          <include name="setupbrowser"/>
+          <include name="Signup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.FbSignUp -->
+    </classes>
+  </test> <!-- CrossBroswer_Firefox(failed) -->
+</suite> <!-- Failed suite [Suite_CrossBroserTesting] -->
