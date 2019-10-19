@@ -9,14 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,943</td><td>Random, Regression, Smoke</td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">35,105</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FbHomePageTest</td><td><a href="#m0">FbURLvarify</a></td><td rowspan="1">1571199383456</td><td rowspan="1">11</td></tr><tr class="passedeven"><td><a href="#m1">linkTest01</a></td><td rowspan="1">1571199378020</td><td rowspan="1">57</td></tr><tr class="passedeven"><td><a href="#m2">tilleTest</a></td><td rowspan="1">1571199389422</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="1">tests.FbSignIn</td><td><a href="#m3">SNwithvalidinfo</a></td><td rowspan="1">1571199363773</td><td rowspan="1">9274</td></tr><tr class="passedeven"><td rowspan="1">tests.FbSignUp</td><td><a href="#m4">Signup</a></td><td rowspan="1">1571199357798</td><td rowspan="1">945</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.FbSignIn</td><td><a href="#m0">SNwithvalidinfo</a></td><td rowspan="1">1571446297588</td><td rowspan="1">3297</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.FbHomePageTest</td><td><a href="#m1">FbURLvarify</a></td><td rowspan="1">1571446311873</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m2">linkTest01</a></td><td rowspan="1">1571446306238</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m3">tilleTest</a></td><td rowspan="1">1571446317479</td><td rowspan="1">11</td></tr><tr class="passedodd"><td rowspan="1">tests.FbSignUp</td><td><a href="#m4">Signup</a></td><td rowspan="1">1571446292848</td><td rowspan="1">823</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">tests.FbHomePageTest#FbURLvarify</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.FbHomePageTest#linkTest01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.FbHomePageTest#tilleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.FbSignIn#SNwithvalidinfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.FbSignIn#SNwithvalidinfo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@id=&apos;email&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;MDs-MacBook-Air.home&apos;, ip: &apos;fe80:0:0:0:88b:ccef:4772:8a7c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at util.WebDriverAPI02.TypeByXpath(WebDriverAPI02.java:31)
+	at tests.FbSignIn.SNwithvalidinfo(FbSignIn.java:18)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.FbHomePageTest#FbURLvarify</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.FbHomePageTest#linkTest01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.FbHomePageTest#tilleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">tests.FbSignUp#Signup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

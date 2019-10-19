@@ -1,12 +1,38 @@
-<project name="TestAutomation" basedir=".">
+<project name="xslt Report" basedir=".">
     <property name="LIB" value="${basedir}/lib" />
     <property name="BIN" value="${basedir}/bin" />
     <path id="master-classpath">
         <pathelement location="${BIN}" />
         <fileset dir="${LIB}" includes="*.jar"/>
     </path>
-     
-    <target name="generateReport">
+    
+	<!-- clean -->
+	    <target name="clean">
+	        <delete dir="${test.dest}"/>
+	    </target>
+	
+	<target name="compile" depends="clean" > 
+			<delete includeemptydirs="true" quiet="true">
+	            <fileset dir="${test.dest}" includes="**/*.java"/>
+			</delete>
+	        <echo message="making directory..."/>
+			<mkdir dir="${test.dest}"/>
+	        <echo message="classpath------: ${test.classpath}"/>
+	        <echo message="QA Automation Scripts Compiling..."/>
+	        <javac 
+	            debug="true" 
+	            destdir="${test.dest}" 
+	            srcdir="${test.src}" 
+	            target="1.5" 
+	            classpath="${test.classpath}"
+	        >
+	        </javac>
+	      </target>
+	
+	 
+	    
+	
+    <target name="Report">
         <delete dir="${basedir}/testng-xslt">
         </delete>
         <mkdir dir="${basedir}/testng-xslt">
