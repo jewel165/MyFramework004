@@ -2,20 +2,22 @@ package base;
 
 
 
+
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import util.WebDriverAPI02;
 
 public class Config04 extends WebDriverAPI02 {
 	
 	
-	//@Parameters("browser")
-	@BeforeMethod(alwaysRun = true)
 	@Parameters("browser")
+	@BeforeMethod(alwaysRun = true)
+	//@Parameters("browser", "chrome")
 		
 public void setupbrowser(String browserName) {
 		
@@ -30,15 +32,15 @@ public void setupbrowser(String browserName) {
 		
 		//System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
 		//driver = new ChromeDriver();
-		driver.get("http://facebook.com");
+		driver.get("http://www.facecook.com");
 		pageload();
 		maxscreen();
 		wttime();
 		DltCookies();
-
+		
 	}	
 
-
+	
 
 
 	@AfterMethod(alwaysRun = true)
