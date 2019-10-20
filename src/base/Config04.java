@@ -22,7 +22,7 @@ public class Config04 extends WebDriverAPI02 {
 public void setupbrowser(String browserName) {
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","/Users/jewel/Downloads/chromedriver");
+			System.setProperty("webdriver.chrome.driver","/Users/jewel/git/MyFramework004/Drivers/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){

@@ -2,21 +2,21 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47154" started-at="2019-10-20T13:01:09 EDT" finished-at="2019-10-20T13:01:56 EDT">
+  <suite name="Suite" duration-ms="45256" started-at="2019-10-20T18:06:18 EDT" finished-at="2019-10-20T18:07:03 EDT">
     <groups>
       <group name="Random">
-        <method signature="FbHomePageTest.FbURLvarify()[pri:1, instance:tests.FbHomePageTest@3551a94]" name="FbURLvarify" class="tests.FbHomePageTest"/>
-        <method signature="FbHomePageTest.linkTest01()[pri:0, instance:tests.FbHomePageTest@3551a94]" name="linkTest01" class="tests.FbHomePageTest"/>
-        <method signature="FbHomePageTest.tilleTest()[pri:2, instance:tests.FbHomePageTest@3551a94]" name="tilleTest" class="tests.FbHomePageTest"/>
+        <method signature="FbHomePageTest.FbURLvarify()[pri:1, instance:tests.FbHomePageTest@6325a3ee]" name="FbURLvarify" class="tests.FbHomePageTest"/>
+        <method signature="FbHomePageTest.linkTest01()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="linkTest01" class="tests.FbHomePageTest"/>
+        <method signature="FbHomePageTest.tilleTest()[pri:2, instance:tests.FbHomePageTest@6325a3ee]" name="tilleTest" class="tests.FbHomePageTest"/>
       </group> <!-- Random -->
       <group name="Smoke">
-        <method signature="FbSignIn.SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@5a61f5df]" name="SNwithvalidinfo" class="tests.FbSignIn"/>
-        <method signature="FbSignUp.Signup()[pri:0, instance:tests.FbSignUp@36f6e879]" name="Signup" class="tests.FbSignUp"/>
+        <method signature="FbSignIn.SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="SNwithvalidinfo" class="tests.FbSignIn"/>
+        <method signature="FbSignUp.Signup()[pri:0, instance:tests.FbSignUp@7791a895]" name="Signup" class="tests.FbSignUp"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Test" duration-ms="47154" started-at="2019-10-20T13:01:09 EDT" finished-at="2019-10-20T13:01:56 EDT">
+    <test name="Test" duration-ms="45256" started-at="2019-10-20T18:06:18 EDT" finished-at="2019-10-20T18:07:03 EDT">
       <class name="tests.FbHomePageTest">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@3551a94]" name="setupbrowser" is-config="true" duration-ms="4426" started-at="2019-10-20T13:01:43 EDT" finished-at="2019-10-20T13:01:47 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="4776" started-at="2019-10-20T18:06:48 EDT" finished-at="2019-10-20T18:06:53 EDT">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="linkTest01()[pri:0, instance:tests.FbHomePageTest@3551a94]" name="linkTest01" duration-ms="52" started-at="2019-10-20T13:01:47 EDT" finished-at="2019-10-20T13:01:48 EDT">
+        <test-method status="PASS" signature="linkTest01()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="linkTest01" duration-ms="57" started-at="2019-10-20T18:06:53 EDT" finished-at="2019-10-20T18:06:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- linkTest01 -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@3551a94]" name="close" is-config="true" duration-ms="163" started-at="2019-10-20T13:01:48 EDT" finished-at="2019-10-20T13:01:48 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="186" started-at="2019-10-20T18:06:53 EDT" finished-at="2019-10-20T18:06:53 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@3551a94]" name="setupbrowser" is-config="true" duration-ms="3400" started-at="2019-10-20T13:01:48 EDT" finished-at="2019-10-20T13:01:51 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="5446" started-at="2019-10-20T18:06:53 EDT" finished-at="2019-10-20T18:06:59 EDT">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="FbURLvarify()[pri:1, instance:tests.FbHomePageTest@3551a94]" name="FbURLvarify" duration-ms="6" started-at="2019-10-20T13:01:51 EDT" finished-at="2019-10-20T13:01:51 EDT">
+        <test-method status="PASS" signature="FbURLvarify()[pri:1, instance:tests.FbHomePageTest@6325a3ee]" name="FbURLvarify" duration-ms="12" started-at="2019-10-20T18:06:59 EDT" finished-at="2019-10-20T18:06:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FbURLvarify -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@3551a94]" name="close" is-config="true" duration-ms="104" started-at="2019-10-20T13:01:51 EDT" finished-at="2019-10-20T13:01:51 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="207" started-at="2019-10-20T18:06:59 EDT" finished-at="2019-10-20T18:06:59 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@3551a94]" name="setupbrowser" is-config="true" duration-ms="4350" started-at="2019-10-20T13:01:51 EDT" finished-at="2019-10-20T13:01:56 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="setupbrowser" is-config="true" duration-ms="4403" started-at="2019-10-20T18:06:59 EDT" finished-at="2019-10-20T18:07:03 EDT">
           <params>
             <param index="0">
               <value>
@@ -65,17 +65,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="tilleTest()[pri:2, instance:tests.FbHomePageTest@3551a94]" name="tilleTest" duration-ms="10" started-at="2019-10-20T13:01:56 EDT" finished-at="2019-10-20T13:01:56 EDT">
+        <test-method status="PASS" signature="tilleTest()[pri:2, instance:tests.FbHomePageTest@6325a3ee]" name="tilleTest" duration-ms="13" started-at="2019-10-20T18:07:03 EDT" finished-at="2019-10-20T18:07:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tilleTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@3551a94]" name="close" is-config="true" duration-ms="166" started-at="2019-10-20T13:01:56 EDT" finished-at="2019-10-20T13:01:56 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbHomePageTest@6325a3ee]" name="close" is-config="true" duration-ms="191" started-at="2019-10-20T18:07:03 EDT" finished-at="2019-10-20T18:07:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.FbHomePageTest -->
       <class name="tests.FbSignIn">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignIn@5a61f5df]" name="setupbrowser" is-config="true" duration-ms="3214" started-at="2019-10-20T13:01:20 EDT" finished-at="2019-10-20T13:01:23 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="setupbrowser" is-config="true" duration-ms="2901" started-at="2019-10-20T18:06:25 EDT" finished-at="2019-10-20T18:06:28 EDT">
           <params>
             <param index="0">
               <value>
@@ -86,17 +86,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="FAIL" signature="SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@5a61f5df]" name="SNwithvalidinfo" duration-ms="20069" started-at="2019-10-20T13:01:23 EDT" finished-at="2019-10-20T13:01:43 EDT">
+        <test-method status="FAIL" signature="SNwithvalidinfo()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="SNwithvalidinfo" duration-ms="20050" started-at="2019-10-20T18:06:28 EDT" finished-at="2019-10-20T18:06:48 EDT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
   (Session info: chrome=77.0.3865.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MDs-MacBook-Air.home', ip: 'fe80:0:0:0:18fd:391d:cfb9:33c2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:df:21ea:cac1:7dc1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 672eb5d00da6f3ed8f7407df1700477c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:50341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a531e666bc6252131e9682da98b5ba8e
 *** Element info: {Using=xpath, value=//input[@id='email']}]]>
             </message>
             <full-stacktrace>
@@ -104,10 +104,10 @@ Session ID: 672eb5d00da6f3ed8f7407df1700477c
   (Session info: chrome=77.0.3865.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MDs-MacBook-Air.home', ip: 'fe80:0:0:0:18fd:391d:cfb9:33c2%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
+System info: host: 'MDs-MacBook-Air.fios-router.home', ip: 'fe80:0:0:0:df:21ea:cac1:7dc1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:49929}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 672eb5d00da6f3ed8f7407df1700477c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/tx/_y6jrbnj0_9...}, goog:chromeOptions: {debuggerAddress: localhost:50341}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a531e666bc6252131e9682da98b5ba8e
 *** Element info: {Using=xpath, value=//input[@id='email']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -150,21 +150,22 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
 at org.testng.TestNG.runSuites(TestNG.java:1032)
 at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.TestNG.privateMain(TestNG.java:1326)
-at org.testng.TestNG.main(TestNG.java:1294)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SNwithvalidinfo -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignIn@5a61f5df]" name="close" is-config="true" duration-ms="107" started-at="2019-10-20T13:01:43 EDT" finished-at="2019-10-20T13:01:43 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignIn@3a5ed7a6]" name="close" is-config="true" duration-ms="136" started-at="2019-10-20T18:06:48 EDT" finished-at="2019-10-20T18:06:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.FbSignIn -->
       <class name="tests.FbSignUp">
-        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignUp@36f6e879]" name="setupbrowser" is-config="true" duration-ms="9981" started-at="2019-10-20T13:01:09 EDT" finished-at="2019-10-20T13:01:19 EDT">
+        <test-method status="PASS" signature="setupbrowser(java.lang.String)[pri:0, instance:tests.FbSignUp@7791a895]" name="setupbrowser" is-config="true" duration-ms="5680" started-at="2019-10-20T18:06:18 EDT" finished-at="2019-10-20T18:06:24 EDT">
           <params>
             <param index="0">
               <value>
@@ -175,11 +176,11 @@ at org.testng.TestNG.main(TestNG.java:1294)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupbrowser -->
-        <test-method status="PASS" signature="Signup()[pri:0, instance:tests.FbSignUp@36f6e879]" name="Signup" duration-ms="894" started-at="2019-10-20T13:01:19 EDT" finished-at="2019-10-20T13:01:20 EDT">
+        <test-method status="PASS" signature="Signup()[pri:0, instance:tests.FbSignUp@7791a895]" name="Signup" duration-ms="898" started-at="2019-10-20T18:06:24 EDT" finished-at="2019-10-20T18:06:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Signup -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignUp@36f6e879]" name="close" is-config="true" duration-ms="149" started-at="2019-10-20T13:01:20 EDT" finished-at="2019-10-20T13:01:20 EDT">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.FbSignUp@7791a895]" name="close" is-config="true" duration-ms="223" started-at="2019-10-20T18:06:25 EDT" finished-at="2019-10-20T18:06:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
