@@ -18,13 +18,6 @@
           <include name="SNwithvalidinfo"/>
         </methods>
       </class> <!-- tests.FbSignIn -->
-      <class name="tests.FbSignUp">
-        <methods>
-          <include name="setupbrowser"/>
-          <include name="Signup"/>
-          <include name="close"/>
-        </methods>
-      </class> <!-- tests.FbSignUp -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
