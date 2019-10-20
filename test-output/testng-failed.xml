@@ -3,14 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+        <include name="Random"/>
+      </run>
+    </groups>
     <classes>
-      <class name="tests.FbSignIn">
+      <class name="tests.FbSignUp">
         <methods>
           <include name="setupbrowser"/>
+          <include name="Signup"/>
           <include name="close"/>
-          <include name="SNwithvalidinfo"/>
         </methods>
-      </class> <!-- tests.FbSignIn -->
+      </class> <!-- tests.FbSignUp -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
