@@ -1,5 +1,5 @@
 
-                    .testMethodStatusCONF { }
+                    .testMethodStatusCONF { display: none; }
                 
                     .testMethodStatusFAIL { background-color: #FFBBBB; }
                 

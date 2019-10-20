@@ -11,6 +11,13 @@
       </run>
     </groups>
     <classes>
+      <class name="tests.FbSignIn">
+        <methods>
+          <include name="setupbrowser"/>
+          <include name="close"/>
+          <include name="SNwithvalidinfo"/>
+        </methods>
+      </class> <!-- tests.FbSignIn -->
       <class name="tests.FbSignUp">
         <methods>
           <include name="setupbrowser"/>

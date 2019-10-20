@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
 
 
 
@@ -107,10 +107,10 @@
 	<target name="report">
 		        <mkdir dir="${ws.home}/XSLT_Reports/output"/>
 
-		        <xslt in="${ng.result}/testng-results.xml" style="src/xslt/testng-results.xsl"
+		        <xslt in="${ng.result}/testng-results.xml" style="src/testng-results.xsl"
 		              out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
-		            <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>
-		            <param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		            <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/" />
+		            <param name="testNgXslt.showRuntimeTotals" expression="true" />
 		        </xslt>
 		    </target>
 
