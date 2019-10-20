@@ -17,7 +17,7 @@ public class FbSignUp extends Config04 {
 	FbValues01 ee = new FbValues01();
 
 	
-	@Test(groups="Smoke")
+	@Test(groups= {"Smoke"})
 	public void Signup() {
 		
 		TypeByXpath(dd.Frname, ee.Fname);
