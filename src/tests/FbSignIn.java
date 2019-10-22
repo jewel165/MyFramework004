@@ -21,4 +21,12 @@ public class FbSignIn extends Config04{
 		
 	}
 
+	@Test(groups ="Smoke")
+	public void sinin02() {
+		typebyxpath(aa.EmailPh,bb.Email);
+		typebyxpath(aa.PassWord,bb.Pass);
+		ClickById(aa.LoginBtn);
+		
+	}
+	//hhhahhhahhha
 }
